@@ -1,0 +1,44 @@
+body{
+    background-color: #edededea;
+}
+.header__color{
+    background-color: #174c4f;
+}
+.header__form{
+    background-color: #edededea;
+    border-color: gray;
+    border-radius: 0.5rem;
+
+    .header__form:hover{
+        background-color: #174c4f;
+        border-radius: 2%;
+        border-color: black
+    }
+}
+.main__aside{
+background-color:  #edededea;
+padding-left: 2rem;
+}
+.tendencias__listas{
+    background-color: #174c4f;
+}
+.section__temas{
+    background-color: #174c4f;
+    padding: 1rem;
+}
+.section__temas__card{
+padding: 0%;
+}
+.section__tarjetas__titulo{
+    margin-bottom: 5%;
+    padding: 1%;
+    border: gray;
+    border-radius: 0.5rem;
+    background-color: #174c4f;
+    
+}
+.footer__color{
+    background-color:#174c4f
+}
+
+
