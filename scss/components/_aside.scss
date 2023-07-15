@@ -1,0 +1,21 @@
+.aside__{
+    background-color:  $color-fondo;
+    padding-left: 2rem;
+    
+    &tendencias__listas{
+        background-color: $color-principal;
+    }}
+    .section__temas{
+        background-color: $color-principal;
+        padding: 1rem;
+    
+    &__card{
+    padding: 0%;
+    }}
+    .section__tarjetas__titulo{
+        margin-bottom: 5%;
+        padding: 1%;
+        border: gray;
+        border-radius: 0.5rem;
+        background-color: #174c4f;
+    }

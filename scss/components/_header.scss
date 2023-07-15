@@ -1,0 +1,20 @@
+.headerestandar{
+    background-color:$color-principal;
+    &__form {
+    background-color:$color-fondo;
+    border-color: gray;
+    border-radius: 0.5rem;
+
+    &:hover{
+        background-color:$color-principal;
+        border-radius: 2%;
+        border-color:$color-borde-normal
+    }}}
+    .divider-icon{
+        background-color: $color-borde-normal;
+        
+        height: 0.5rem;
+        &__titulo{
+            border: 0.5rem solid black;
+            border-radius: 10%;
+        }}
