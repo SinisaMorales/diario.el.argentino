@@ -1,0 +1,22 @@
+.principales__tarjeta{
+    margin: 0.5rem;
+    border: 0.2rem solid $color-principal;
+    padding: 0.6rem;
+    height: 8rem;
+    &__chica{
+        margin: 0.5rem;
+        border-left: 0.2rem solid $color-principal;
+        padding: 0.4rem;
+        background-color: rgb(218, 218, 218);
+        height: 6.5rem;
+    }
+    &__titulo{
+        font-family: 'Crimson Text', serif;
+        font-size: large;
+        margin-left: 1rem;
+        }
+    &__encabezado{
+        font-family: 'Merriweather', serif;
+        font-size: small;
+        margin-left: 1rem;
+    }}

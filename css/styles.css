@@ -53,4 +53,28 @@ body {
   background-color: #174c4f;
 }
 
+.principales__tarjeta {
+  margin: 0.5rem;
+  border: 0.2rem solid #174c4f;
+  padding: 0.6rem;
+  height: 8rem;
+}
+.principales__tarjeta__chica {
+  margin: 0.5rem;
+  border-left: 0.2rem solid #174c4f;
+  padding: 0.4rem;
+  background-color: rgb(218, 218, 218);
+  height: 6.5rem;
+}
+.principales__tarjeta__titulo {
+  font-family: "Crimson Text", serif;
+  font-size: large;
+  margin-left: 1rem;
+}
+.principales__tarjeta__encabezado {
+  font-family: "Merriweather", serif;
+  font-size: small;
+  margin-left: 1rem;
+}
+
 /*# sourceMappingURL=styles.css.map */

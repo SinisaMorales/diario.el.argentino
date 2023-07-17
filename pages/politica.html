@@ -6,12 +6,15 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/styles.css">
         <title>Juntos por el Cambio triunfó con claridad en San Juan y Orrego será el próximo gobernador</title>
     </head>
     <body>
-        <div class="container-fluid header__color">
+        <header>
+            <div class="headerestandar container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light container">
                 <div class="container-fluid container-md d-flex flex-wrap me-2">
                 <a class="navbar-brand w-25" href="#">
@@ -26,10 +29,10 @@
                         <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./economia.html">Economía</a>
+                        <a class="nav-link" href="./pages/economia.html">Economía</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./politica.html">Política</a>
+                        <a class="nav-link" href="">Política</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">Deportes</a>
@@ -52,85 +55,185 @@
                 </div>
             </nav>
             </div>
-            <hr>
+            </header>
+            <div class="container d-flex flex-nowrap justify-content-center align-items-center mt-3 mb-3">
+                <div class="d-inline-block divider-icon  col-5"></div>
+                <div class="d-inline-block d-flex justify-content-center w-25 h-25 col-2"> <h1 class="text-center display-5 d-none d-lg-inline"><strong>El Argentino</strong></h1></div>
+                <div class="d-inline-block divider-icon  col-5"></div>
+            </div>
     </header>
-        <main class="me-2">
-    <section class="container">
-        <div class="row">
-            <article class="col-xl-8">
-                <h1><strong>Principales Del Día</strong></h1>
-                <a href="./pages/noticia_policiales.html"></a>
-                <h4>Policiales</h4>
-                <a href="./pages/noticia_de_politica.html"><img class="w-100" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt=""></a>
-                <h2><strong>Juntos por el Cambio triunfó con claridad en San Juan y Orrego será el próximo gobernador</strong></h2>
-                <p>El candidato de Unidos por San Juan logra una diferencia de casi 30.000 votos sobre Gioja y Rubén Uñac; Larreta, Lousteau, Pichetto y Espert festejan en la provincia</p>
-            </article>
-            <aside class="d-none d-xl-block text-xl-center col-xl-4 d-flex flex-xl-column main__aside justify-content-xl-center">
-                <div class="text-center d-xl-inline-block  border border-2 section__tarjetas__titulo"><h2><strong>Tendencias</strong></h2></div>
-                <div class="h-75">
-                    <ul class="list-group list-group">
-                        <li class="list-group-item d-flex justify-content-between align-items-start tendencias__listas">
-                        <img  class="w-50" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt="">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Subencabezado</div>
-                            Contenido para el elemento de la lista
+    <main class="me-2">
+            <section class="container">
+                <div class="row">
+                    <article class="col-xl-8">
+                        <h2 class="display-6"><strong>Principales Del Día</strong></h2>
+                        <a href="./pages/noticia_policiales.html"></a>
+                        <a href="./pages/noticia_de_politica.html"><img class="w-100" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt=""></a>
+                        <h5>Elecciones 2023</h5>
+                        <h2><strong>Juntos por el Cambio triunfó con claridad en San Juan y Orrego será el próximo gobernador</strong></h2>
+                        <p class="d-none d-xl-inline">El candidato de Unidos por San Juan logra una diferencia de casi 30.000 votos sobre Gioja y Rubén Uñac; Larreta, Lousteau, Pichetto y Espert festejan en la provincia</p>
+                    </article>
+                    <aside class="d-none d-xl-block text-xl-center col-xl-4 d-flex flex-xl-column aside__ justify-content-xl-center">
+                        <div class="text-center d-xl-inline-block  border border-2 section__tarjetas__titulo"><h2><strong>Tendencias</strong></h2></div>
+                        <div class="h-75">
+                            <ul class="list-group list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-start  aside__tendencias__listas">
+                                <img  class="w-50" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt="">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Subencabezado</div>
+                                    Contenido para el elemento de la lista
+                                </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-start aside__tendencias__listas">
+                                    <img  class="w-50" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt="">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Subencabezado</div>
+                                    Contenido para el elemento de la lista
+                                </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-start  aside__tendencias__listas">
+                                    <img  class="w-50" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt="">
+                                <div class="ms-2 me-auto">
+                                    <div class="fw-bold">Subencabezado</div>
+                                    Contenido para el elemento de la lista
+                                </div>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-start  aside__tendencias__listas">
+                                    <img  class="w-50" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt="">
+                                    <div class="ms-2 me-auto">
+                                        <div class="fw-bold">Subencabezado</div>
+                                        Contenido para el elemento de la lista
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start tendencias__listas">
-                            <img  class="w-50" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt="">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Subencabezado</div>
-                            Contenido para el elemento de la lista
-                        </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start tendencias__listas">
-                            <img  class="w-50" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt="">
-                        <div class="ms-2 me-auto">
-                            <div class="fw-bold">Subencabezado</div>
-                            Contenido para el elemento de la lista
-                        </div>
-                        </li>
-                        <li class="list-group-item d-flex justify-content-between align-items-start tendencias__listas">
-                            <img  class="w-50" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt="">
-                            <div class="ms-2 me-auto">
-                                <div class="fw-bold">Subencabezado</div>
-                                Contenido para el elemento de la lista
-                            </div>
-                        </li>
-                    </ul>
+                    </aside>
                 </div>
-            </aside>
+            </section>
+            <hr>
+        <section class="container">
+            <div class="row">
+                <article class="col-xl-8">
+                    <h2 class="display-6"><strong>Principales Del Día</strong></h2>
+                    <a href="./pages/noticia_policiales.html"></a>
+                    <a href="./pages/noticia_de_politica.html"><img class="w-100" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt=""></a>
+                    <h5>Elecciones 2023</h5>
+                    <h2><strong>Juntos por el Cambio triunfó con claridad en San Juan y Orrego será el próximo gobernador</strong></h2>
+                    <p class="d-none d-xl-inline">El candidato de Unidos por San Juan logra una diferencia de casi 30.000 votos sobre Gioja y Rubén Uñac; Larreta, Lousteau, Pichetto y Espert festejan en la provincia</p>
+                </article>
+                <article class="d-flex principales__tarjeta m-2 align-items-center">
+                    <div class=""><img class="w-100" src="https://cdn.eldestapeweb.com/eldestape/042023/1682881089467.jpeg?&cw=350&ch=197" alt=""></div>
+                    <div>
+                        <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
+                        <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque amet,</strong></h2></div>
+                </article>
+                <article class="d-flex principales__tarjeta m-2 align-items-center">
+                    <div class=""><img class="w-100" src="https://cdn.eldestapeweb.com/eldestape/042023/1682881089467.jpeg?&cw=350&ch=197" alt=""></div>
+                    <div>
+                        <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
+                        <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque amet,</strong></h2></div>
+                </article>
+            </div>
+            <div class="row">
+                <article class="d-flex principales__tarjeta__chica m-2">
+                    <div>
+                        <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
+                        <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sapiente debitis soluta quasi nulla commodi molestias</strong></h2>
+                    </div>
+                </article>
+                <article class="d-flex principales__tarjeta__chica m-2">
+                    <div>
+                        <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
+                        <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sapiente debitis soluta quasi nulla commodi molestias</strong></h2>
+                    </div>
+                </article>
+                <article class="d-flex principales__tarjeta__chica m-2">
+                    <div>
+                        <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
+                        <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sapiente debitis soluta quasi nulla commodi molestias</strong></h2>
+                    </div>
+                </article>
+                <article class="d-flex principales__tarjeta__chica m-2">
+                    <div>
+                        <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
+                        <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sapiente debitis soluta quasi nulla commodi molestias</strong></h2>
+                    </div>
+                </article>
+            </div>
+        <section class="container">
+            <div class="row">
+                <article class="col-xl-8">
+                    <h2 class="display-6"><strong>Principales Del Día</strong></h2>
+                    <a href="./pages/noticia_policiales.html"></a>
+                    <a href="./pages/noticia_de_politica.html"><img class="w-100" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt=""></a>
+                    <h5>Elecciones 2023</h5>
+                    <h2>Juntos por el Cambio triunfó con claridad en San Juan y Orrego será el próximo gobernador</h2>
+                    <p class="d-none d-xl-inline">El candidato de Unidos por San Juan logra una diferencia de casi 30.000 votos sobre Gioja y Rubén Uñac; Larreta, Lousteau, Pichetto y Espert festejan en la provincia</p>
+                </article>
+                <hr class="display-xl-none">
+                <article class="col-xl-8">
+                    <h2 class="display-6"><strong>Principales Del Día</strong></h2>
+                    <a href="./pages/noticia_policiales.html"></a>
+                    <a href="./pages/noticia_de_politica.html"><img class="w-100" src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG" alt=""></a>
+                    <h5>Elecciones 2023</h5>
+                    <h2>Juntos por el Cambio triunfó con claridad en San Juan y Orrego será el próximo gobernador</h2>
+                    <p class="d-none d-xl-inline">El candidato de Unidos por San Juan logra una diferencia de casi 30.000 votos sobre Gioja y Rubén Uñac; Larreta, Lousteau, Pichetto y Espert festejan en la provincia</p>
+                </article>
+            </div>
+        </section>
+        <section class="container">
+        <div class="row">
+        </article>
+        <article class="d-flex principales__tarjeta m-2 align-items-center">
+            <div class=""><img class="w-100" src="https://cdn.eldestapeweb.com/eldestape/042023/1682881089467.jpeg?&cw=350&ch=197" alt=""></div>
+            <div>
+                <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
+                <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque amet,</strong></h2></div>
+        </article>
+        <article class="d-flex principales__tarjeta m-2 align-items-center">
+            <div class=""><img class="w-100" src="https://cdn.eldestapeweb.com/eldestape/042023/1682881089467.jpeg?&cw=350&ch=197" alt=""></div>
+            <div>
+                <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
+                <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque amet,</strong></h2></div>
+        </article>
+        <article class="d-flex principales__tarjeta m-2 align-items-center">
+            <div class=""><img class="w-100" src="https://cdn.eldestapeweb.com/eldestape/042023/1682881089467.jpeg?&cw=350&ch=197" alt=""></div>
+            <div>
+                <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
+                <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, neque amet,</strong></h2></div>
+        </article>
+    </div>
         </div>
+        </section>
         <hr>
-    </section>
-    </main>
-    <hr>
-    <div class="footer__color container-fluid">
-        <div class="container">
-            <footer class="row align-content-center row-cols-1 row-cols-sm-2 row-cols-md-5 border-top row-cols-xl-auto justify-content-around p-xl-2 align-items-xl-center">
-            <div class="col-xl-2 mb-3 m-3">
-            <p class="text-muted">© 2023 El Argentino</p>
-            </div>
-            <div class="col-xl-4 mb-3">
-            <h5>Sección</h5>
-            <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Quienes somos</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contacto</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Avenida Siempreviva 742,Rosario,Sante fé,Argentina</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Legales</a></li>
-            </ul>
-            </div>
-            <div class="col-xl-4 mb-3">
-            <h5>Sección</h5>
-            <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ayuda</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Suscribirse al Diario</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">¿Cómo anunciar?</a></li>
-            </ul>
-            </div>
-            </footer>
-            </div>
-        </div>
+            <footer>
+                <div class="footer__color container-fluid">
+                <div class="container">
+                    <footer class="row align-content-center row-cols-1 row-cols-sm-2 row-cols-md-5 border-top row-cols-xl-auto justify-content-around p-xl-2 align-items-xl-center">
+                    <div class="col-xl-2 mb-3 m-3">
+                    <p class="text-muted">© 2023 El Argentino</p>
+                    </div>
+                    <div class="col-xl-4 mb-3">
+                    <h5>Sección</h5>
+                    <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Quienes somos</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contacto</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Avenida Siempreviva 742,Rosario,Sante fé,Argentina</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Legales</a></li>
+                    </ul>
+                    </div>
+                    <div class="col-xl-4 mb-3">
+                    <h5>Sección</h5>
+                    <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ayuda</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Suscribirse al Diario</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">¿Cómo anunciar?</a></li>
+                    </ul>
+                    </div>
+                    </footer>
+                    </div>
+                </div>
+                </footer>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
