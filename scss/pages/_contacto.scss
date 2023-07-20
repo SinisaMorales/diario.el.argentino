@@ -1,0 +1,14 @@
+.contacto__icons{
+    height: 1%;
+    width: 10%;
+}
+.formulario{
+    border-right: 0.2rem dashed $color-principal; 
+&__asunto{
+    margin-right: 6rem;
+}
+&__consulta {
+    height: 10%;
+    overflow: scroll;
+}
+}
