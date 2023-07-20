@@ -1,0 +1,17 @@
+.aside__{
+    background-color:  $color-fondo;
+    padding-left: 2rem;
+    margin-left: 2rem;
+    border-right: 0.2rem dashed $color-principal;
+    padding: 1%;
+    height: 90%;
+    
+    &tendencias__listas{
+        background-color: rgb(218, 218, 218);
+        margin: 2%;
+        font-family: 'Crimson Text', serif;
+    }}
+    .index__themesection{
+        border: 0.2rem dashed $color-principal;
+        margin: 2rem
+    }

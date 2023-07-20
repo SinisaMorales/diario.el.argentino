@@ -12,8 +12,9 @@ body {
 }
 .headerestandar__form:hover {
   background-color: #174c4f;
-  border-radius: 2%;
-  border-color: black;
+  color: aliceblue;
+  border-radius: 15%;
+  border: 0.1rem solid black;
 }
 
 .divider-icon {
@@ -28,9 +29,15 @@ body {
 .aside__ {
   background-color: rgba(237, 237, 237, 0.9176470588);
   padding-left: 2rem;
+  margin-right: 5%;
+  border-left: 0.2rem dashed #174c4f;
+  padding: 1%;
+  height: 90%;
 }
 .aside__tendencias__listas {
-  background-color: #174c4f;
+  background-color: rgb(218, 218, 218);
+  margin: 2%;
+  font-family: "Crimson Text", serif;
 }
 
 .section__temas {
@@ -42,15 +49,87 @@ body {
 }
 
 .section__tarjetas__titulo {
+  color: black;
+  font-family: "Crimson Text", serif;
   margin-bottom: 5%;
   padding: 1%;
   border: gray;
   border-radius: 0.5rem;
-  background-color: #174c4f;
+  background-color: rgb(218, 218, 218);
 }
 
 .footer__color {
   background-color: #174c4f;
+}
+
+.cuadro__divisas__ {
+  border: 0.2rem dashed #174c4f;
+  padding: 1%;
+  margin: 0.2rem;
+}
+.cuadro__divisas__listas {
+  background-color: rgb(218, 218, 218);
+  border: 0.2rem solid rgba(237, 237, 237, 0.9176470588);
+  margin-bottom: 2%;
+}
+.cuadro__divisas__titulo {
+  border: 0.2rem dashed #174c4f;
+  border-radius: 8%;
+  padding: 1%;
+}
+
+.economia__section {
+  border-left: 0.2rem dashed #174c4f;
+  padding: 0.5rem;
+  border-radius: 1%;
+}
+
+.economia__tarjeta {
+  background-color: rgb(218, 218, 218);
+  border: 0.2rem dashed #174c4f;
+  padding: 6%;
+}
+@media (min-width: 1200px) {
+  .economia__tarjeta {
+    background-color: rgba(237, 237, 237, 0.9176470588);
+    padding: 1rem;
+    border: 0.1rem solid rgb(218, 218, 218);
+  }
+}
+
+.contacto__icons {
+  height: 1%;
+  width: 10%;
+}
+
+.formulario {
+  border-right: 0.2rem dashed #174c4f;
+}
+.formulario__asunto {
+  margin-right: 6rem;
+}
+.formulario__consulta {
+  height: 10%;
+  overflow: scroll;
+}
+
+.aside__ {
+  background-color: rgba(237, 237, 237, 0.9176470588);
+  padding-left: 2rem;
+  margin-left: 2rem;
+  border-right: 0.2rem dashed #174c4f;
+  padding: 1%;
+  height: 90%;
+}
+.aside__tendencias__listas {
+  background-color: rgb(218, 218, 218);
+  margin: 2%;
+  font-family: "Crimson Text", serif;
+}
+
+.index__themesection {
+  border: 0.2rem dashed #174c4f;
+  margin: 2rem;
 }
 
 .principales__tarjeta {
@@ -58,6 +137,13 @@ body {
   border: 0.2rem solid #174c4f;
   padding: 0.6rem;
   height: 8rem;
+  width: 97%;
+}
+@media (min-width: 1200px) {
+  .principales__tarjeta {
+    height: 10rem;
+    width: 36rem;
+  }
 }
 .principales__tarjeta__chica {
   margin: 0.5rem;

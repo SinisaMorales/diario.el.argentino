@@ -7,8 +7,9 @@
 
     &:hover{
         background-color:$color-principal;
-        border-radius: 2%;
-        border-color:$color-borde-normal
+        color: aliceblue;
+        border-radius: 15%;
+        border: 0.1rem solid $color-borde-normal
     }}}
     .divider-icon{
         background-color: $color-borde-normal;

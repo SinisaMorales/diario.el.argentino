@@ -3,6 +3,10 @@
     border: 0.2rem solid $color-principal;
     padding: 0.6rem;
     height: 8rem;
+    width: 97%;
+    @media (min-width: 1200px){
+        height: 10rem;
+        width: 36rem;}
     &__chica{
         margin: 0.5rem;
         border-left: 0.2rem solid $color-principal;

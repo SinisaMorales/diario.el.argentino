@@ -1,9 +1,15 @@
 .aside__{
     background-color:  $color-fondo;
     padding-left: 2rem;
+    margin-right: 5%;
+    border-left: 0.2rem dashed $color-principal;
+    padding: 1%;
+    height: 90%;
     
     &tendencias__listas{
-        background-color: $color-principal;
+        background-color: $color-fondo-gris;
+        margin: 2%;
+        font-family: 'Crimson Text', serif;
     }}
     .section__temas{
         background-color: $color-principal;
@@ -13,9 +19,11 @@
     padding: 0%;
     }}
     .section__tarjetas__titulo{
+        color: black;
+        font-family: 'Crimson Text', serif;
         margin-bottom: 5%;
         padding: 1%;
         border: gray;
         border-radius: 0.5rem;
-        background-color: #174c4f;
+        background-color:$color-fondo-gris;
     }
