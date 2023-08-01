@@ -4,7 +4,7 @@
     padding: 0.6rem;
     height: 8rem;
     width: 97%;
-    @media (min-width: 1200px){
+    @media (min-width: 768px){
         height: 10rem;
         width: 36rem;}
     &__chica{
@@ -23,4 +23,11 @@
         font-family: 'Merriweather', serif;
         font-size: small;
         margin-left: 1rem;
-    }}
+    }
+&__imagen{
+    max-width: 32%;
+    margin-right: 2%;
+    margin-left: 2%;
+    @include borde-con-rayas;
+    padding: 1%;
+}}

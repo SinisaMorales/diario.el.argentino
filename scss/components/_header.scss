@@ -1,21 +1,27 @@
-.headerestandar{
-    background-color:$color-principal;
-    &__form {
-    background-color:$color-fondo;
-    border-color: gray;
-    border-radius: 0.5rem;
+.headerestandar {
+    background-color: $color-principal;
 
-    &:hover{
-        background-color:$color-principal;
-        color: aliceblue;
-        border-radius: 15%;
-        border: 0.1rem solid $color-borde-normal
-    }}}
-    .divider-icon{
-        background-color: $color-borde-normal;
-        
-        height: 0.5rem;
-        &__titulo{
-            border: 0.5rem solid black;
-            border-radius: 10%;
-        }}
+    &__form {
+        background-color: $color-fondo-gris;
+        border-color: gray;
+        border-radius: 0.5rem;
+
+        &:hover {
+            background-color: $color-principal;
+            color: aliceblue;
+            border-radius: 15%;
+            border: 0.1rem solid $color-borde-normal
+        }
+    }
+}
+
+.divider-icon {
+    background-color: $color-borde-normal;
+
+    height: 0.5rem;
+
+    &__titulo {
+        border: 0.5rem solid black;
+        border-radius: 10%;
+    }
+}

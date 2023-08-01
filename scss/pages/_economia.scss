@@ -1,31 +1,55 @@
-.cuadro__divisas__{
-    border: 0.2rem dashed $color-principal;
+.cuadro__divisas__ {
+    @include borde-con-rayas;
     padding: 1%;
     margin: 0.2rem;
-    &listas{
+
+    @media (min-width: 1200px) {
+        max-height: 23rem;
+    }
+
+    &listas {
         background-color: $color-fondo-gris ;
-        border: 0.2rem solid $color-fondo; 
-        margin-bottom: 2%;}
-    &titulo{
-        border: 0.2rem dashed $color-principal;
-        border-radius: 8%;
-        padding: 1%;
-    }
-    }
-    .economia__section {
-        border-left: 0.2rem dashed $color-principal;
-        padding: 0.5rem;
-        border-radius: 1%;
+        border: 0.2rem solid $color-fondo;
+        margin-bottom: 2%;
 
-
-    }
-    .economia__tarjeta{
-        background-color: $color-fondo-gris;
-        border: 0.2rem dashed $color-principal;
-        padding:6%;
-        @media (min-width: 1200px){
-            background-color: $color-fondo;
-            padding: 1rem;
-            border: 0.1rem solid $color-fondo-gris;
+        @media (min-width: 1200px) {
+            max-height: 40%;
+            max-width: 24%;
         }
     }
+
+    &titulo {
+        border-right: 0.2rem dashed $color-principal;
+        border-left: 0.2rem dashed $color-principal;
+        padding: 1%;
+    }
+}
+
+.economia__section {
+    border-left: 0.2rem dashed $color-principal;
+    padding: 0.5rem;
+    border-radius: 1%;
+}
+
+.economia__tarjeta {
+    background-color: $color-fondo-gris;
+    border: 0.2rem dashed $color-principal;
+    padding: 6%;
+
+    &:hover {
+        @include borde-con-rayas;
+
+    }
+
+    @media (min-width: 1200px) {
+        background-color: $color-fondo;
+        padding: 1.2rem;
+        border: 0.1rem solid $color-fondo-gris;
+        min-height: 47vh
+    }
+}
+
+.tarjeta__autor {
+    margin-top: 0.5rem;
+    border-radius: 12%;
+}

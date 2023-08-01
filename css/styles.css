@@ -6,7 +6,7 @@ body {
   background-color: #174c4f;
 }
 .headerestandar__form {
-  background-color: rgba(237, 237, 237, 0.9176470588);
+  background-color: rgb(218, 218, 218);
   border-color: gray;
   border-radius: 0.5rem;
 }
@@ -62,19 +62,37 @@ body {
   background-color: #174c4f;
 }
 
+.pie-de-foto {
+  color: black;
+  font-family: "Crimson Text", serif;
+  font-weight: 700;
+  margin: 1%;
+}
+
 .cuadro__divisas__ {
   border: 0.2rem dashed #174c4f;
   padding: 1%;
   margin: 0.2rem;
+}
+@media (min-width: 1200px) {
+  .cuadro__divisas__ {
+    max-height: 23rem;
+  }
 }
 .cuadro__divisas__listas {
   background-color: rgb(218, 218, 218);
   border: 0.2rem solid rgba(237, 237, 237, 0.9176470588);
   margin-bottom: 2%;
 }
+@media (min-width: 1200px) {
+  .cuadro__divisas__listas {
+    max-height: 40%;
+    max-width: 24%;
+  }
+}
 .cuadro__divisas__titulo {
-  border: 0.2rem dashed #174c4f;
-  border-radius: 8%;
+  border-right: 0.2rem dashed #174c4f;
+  border-left: 0.2rem dashed #174c4f;
   padding: 1%;
 }
 
@@ -89,12 +107,21 @@ body {
   border: 0.2rem dashed #174c4f;
   padding: 6%;
 }
+.economia__tarjeta:hover {
+  border: 0.2rem dashed #174c4f;
+}
 @media (min-width: 1200px) {
   .economia__tarjeta {
     background-color: rgba(237, 237, 237, 0.9176470588);
-    padding: 1rem;
+    padding: 1.2rem;
     border: 0.1rem solid rgb(218, 218, 218);
+    min-height: 47vh;
   }
+}
+
+.tarjeta__autor {
+  margin-top: 0.5rem;
+  border-radius: 12%;
 }
 
 .contacto__icons {
@@ -111,6 +138,15 @@ body {
 .formulario__consulta {
   height: 10%;
   overflow: scroll;
+}
+
+.noticia__borde {
+  padding-left: 3%;
+  border-left: 0.5rem dashed #174c4f;
+}
+
+.separador-de-contenido {
+  border: 0.2rem dashed #174c4f;
 }
 
 .aside__ {
@@ -139,7 +175,7 @@ body {
   height: 8rem;
   width: 97%;
 }
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .principales__tarjeta {
     height: 10rem;
     width: 36rem;
@@ -161,6 +197,13 @@ body {
   font-family: "Merriweather", serif;
   font-size: small;
   margin-left: 1rem;
+}
+.principales__tarjeta__imagen {
+  max-width: 32%;
+  margin-right: 2%;
+  margin-left: 2%;
+  border: 0.2rem dashed #174c4f;
+  padding: 1%;
 }
 
 /*# sourceMappingURL=styles.css.map */

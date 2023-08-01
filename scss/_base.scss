@@ -1,1 +1,7 @@
-body{ background-color:#edededea }
+body {
+    background-color: #edededea
+}
+
+@mixin borde-con-rayas {
+    border: 0.2rem dashed $color-principal;
+}

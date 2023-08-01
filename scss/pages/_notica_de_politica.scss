@@ -1,0 +1,9 @@
+.noticia__borde {
+    padding-left: 3%;
+    border-left: 0.5rem dashed $color-principal;
+}
+
+.separador-de-contenido {
+    @include borde-con-rayas
+}
+
