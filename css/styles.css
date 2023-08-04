@@ -85,6 +85,11 @@ body {
   background-color: #174c4f;
 }
 
+.foooter__contacto {
+  text-decoration: none;
+  color: rgba(237, 237, 237, 0.9176470588);
+}
+
 .pie-de-foto {
   color: black;
   font-family: "Crimson Text", serif;
