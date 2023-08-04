@@ -1,6 +1,14 @@
 .pie-de-foto {
     color: black;
     font-family: 'Crimson Text', serif;
-    font-weight:700;
+    font-weight: 700;
     margin: 1%;
+}
+
+.separador-de-contenido {
+    @include borde-con-rayas
+}
+
+.economia__titulos {
+    border-bottom: 0.2rem dashed $color-principal;
 }

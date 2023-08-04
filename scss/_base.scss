@@ -5,3 +5,17 @@ body {
 @mixin borde-con-rayas {
     border: 0.2rem dashed $color-principal;
 }
+.noticias__principales {
+    :hover {
+        scale: 1.01;
+        transition-duration: 1s;
+        box-shadow: 5px 5px 5px;
+    }
+}
+
+.principales__noticia {
+    :hover {
+        scale: none;
+        box-shadow: none;
+    }
+}

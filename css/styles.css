@@ -2,6 +2,17 @@ body {
   background-color: rgba(237, 237, 237, 0.9176470588);
 }
 
+.noticias__principales :hover {
+  scale: 1.01;
+  transition-duration: 1s;
+  box-shadow: 5px 5px 5px;
+}
+
+.principales__noticia :hover {
+  scale: none;
+  box-shadow: none;
+}
+
 .headerestandar {
   background-color: #174c4f;
 }
@@ -15,6 +26,18 @@ body {
   color: aliceblue;
   border-radius: 15%;
   border: 0.1rem solid black;
+}
+.headerestandar__buscar {
+  width: 3rem;
+  border-radius: 15%;
+}
+.headerestandar__buscar:hover {
+  width: 13rem;
+  transform: scale(1, 1);
+  transition-duration: 0.3s;
+  transform-origin: right;
+  transition-timing-function: linear;
+  border-radius: 10%;
 }
 
 .divider-icon {
@@ -69,6 +92,14 @@ body {
   margin: 1%;
 }
 
+.separador-de-contenido {
+  border: 0.2rem dashed #174c4f;
+}
+
+.economia__titulos {
+  border-bottom: 0.2rem dashed #174c4f;
+}
+
 .cuadro__divisas__ {
   border: 0.2rem dashed #174c4f;
   padding: 1%;
@@ -109,6 +140,9 @@ body {
 }
 .economia__tarjeta:hover {
   border: 0.2rem dashed #174c4f;
+  scale: 1.01;
+  transition-duration: 0.4s;
+  box-shadow: 5px 5px 5px;
 }
 @media (min-width: 1200px) {
   .economia__tarjeta {
@@ -145,10 +179,6 @@ body {
   border-left: 0.5rem dashed #174c4f;
 }
 
-.separador-de-contenido {
-  border: 0.2rem dashed #174c4f;
-}
-
 .aside__ {
   background-color: rgba(237, 237, 237, 0.9176470588);
   padding-left: 2rem;
@@ -166,6 +196,16 @@ body {
 .index__themesection {
   border: 0.2rem dashed #174c4f;
   margin: 2rem;
+}
+
+.index__noticias {
+  border-left: 0.2rem dashed #174c4f;
+  border-right: 0.2rem dashed #174c4f;
+}
+
+.index__interesarte {
+  border: 0.2rem dashed #174c4f;
+  padding: 0.5rem;
 }
 
 .principales__tarjeta {
@@ -194,9 +234,15 @@ body {
   margin-left: 1rem;
 }
 .principales__tarjeta__encabezado {
-  font-family: "Merriweather", serif;
-  font-size: small;
-  margin-left: 1rem;
+  display: none;
+}
+@media (min-width: 768px) {
+  .principales__tarjeta__encabezado {
+    display: inline-block;
+    font-family: "Merriweather", serif;
+    font-size: small;
+    margin-left: 1rem;
+  }
 }
 .principales__tarjeta__imagen {
   max-width: 32%;

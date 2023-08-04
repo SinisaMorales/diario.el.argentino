@@ -17,3 +17,15 @@
     border: 0.2rem dashed $color-principal;
     margin: 2rem
 }
+
+.index__noticias {
+    border-left: 0.2rem dashed $color-principal;
+    border-right: 0.2rem dashed $color-principal;
+
+}
+
+.index__interesarte {
+    @include borde-con-rayas;
+    padding: 0.5rem;
+}
+

@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sección de Política del diario El Argentino, enterate ahora de las últimas noticias del ámbito político y social">
+    <meta name="keywords" content="Elecciones 2023, Presidente, Partidos, Internas, Paritarias">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -52,8 +54,10 @@
                                 © 2023 El Argentino
                             </li>
                         </ul>
+                        <!-- Modifiqué el formulaio para que la barra se abriera al amntener el cursor arriba-->
                         <form class="d-flex" role="search">
-                            <input class="form-control me-2 " type="search" placeholder="Buscar" aria-label="Buscar">
+                            <input class="headerestandar__buscar me-2 " type="search" placeholder="Buscar"
+                                aria-label="Buscar">
                             <button class="btn headerestandar__form" type="submit">Buscar</button>
                         </form>
                     </div>
@@ -71,13 +75,13 @@
     <!-- A el sitio noticia_de_politica.html se puede acceder apretando en el titulo o en la imagen, no lo inclui n la barra de nav para que sea mas como un sitio real-->
     <main class="me-2">
         <section class="container">
-            <div class="row d-flex align-items-xl-center">
+            <div class="row d-flex align-items-xl-center noticias__principales">
                 <h3 class="display-5 "><strong>Principales Del Día</strong></h3>
-                <article class="col-xl-6">
+                <article class="col-xl-6 principales__noticia">
                     <a href="noticia_de_politica.html"><img class="w-100"
                             src="https://www.lanacion.com.ar/resizer/Dw6u5HI0hUvlLMbIfZeZEzIbjQI=/879x586/smart/filters:format(webp):quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/MDRCTQ6GPVAL3C4H3ZFBALEERU.JPG"
                             alt="Larreta abrazandose con Orrego en san juan"></a>
-                    <h5>Elecciones 2023</h5>
+                    <h5 class="pie-de-foto">Elecciones 2023</h5>
                     <a class="text-decoration-none text-dark" href="noticia_de_politica.html">
                         <h2><strong>Juntos por el Cambio triunfó con claridad en San Juan y Orrego será el próximo
                                 gobernador</strong></h2>
@@ -86,11 +90,11 @@
                         30.000 votos sobre Gioja y Rubén Uñac; Larreta, Lousteau, Pichetto y Espert festejan en la
                         provincia</p>
                 </article>
-                <article class="col-xl-6">
+                <article class="col-xl-6 principales__noticia">
                     <img class="w-100"
                         src="https://www.lanacion.com.ar/resizer/26CZkA9v04oauBvVc-AvYKXVsco=/608x405/smart/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CAMA5MFPGJFS7PVE46H6WKKP24.jpg"
                         alt="Larreta sacandose fotos con el Juez">
-                    <h5>Elecciones 2023</h5>
+                    <h5 class="pie-de-foto">Elecciones 2023</h5>
                     <h2><strong>La interna de JxC: Juez firmó la “paz” con Rodríguez Larreta, tras su enojo por la
                             propuesta del alcalde a Schiaretti</strong></h2>
                     <p class="d-none d-xl-inline">Se reunió con el jefe de gobierno y calificó como “un despropósito”
@@ -105,10 +109,10 @@
                 <div class=" d-xl-flex flex-xl-row-reverse  justify-content-xl-center mt-2 mb-2">
                     <article class="col-xl-8">
                         <h2 class="display-6 mb-xl-4"><strong>Principales Del Día</strong></h2>
-                        <a href="./pages/noticia_de_politica.html"><img class="w-100"
-                                src="https://www.lanacion.com.ar/resizer/t3_U1Ot10cwkq4TXFyUEDXWgnlk=/880x586/smart/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/JA2GIP6U4BD5FESCWKBO644GFE.JPG"
-                                alt="La camarista Ana María Figueroa, en su paso por el Senado"></a>
-                        <h5 class="mt-2">Elecciones 2023</h5>
+                        <img class="w-100"
+                            src="https://www.lanacion.com.ar/resizer/t3_U1Ot10cwkq4TXFyUEDXWgnlk=/880x586/smart/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/JA2GIP6U4BD5FESCWKBO644GFE.JPG"
+                            alt="La camarista Ana María Figueroa, en su paso por el Senado">
+                        <h5 class="mt-2 pie-de-foto">Elecciones 2023</h5>
                         <h2 class="display-4"><strong>Senado: el kirchnerismo planea volver a la carga por el pliego de
                                 la camarista Ana María Figueroa</strong></h2>
                         <p class="d-none d-xl-inline">El candidato de Unidos por San Juan logra una diferencia de casi
@@ -225,12 +229,12 @@
                 </section>
                 <hr>
                 <section class="container">
-                    <div class="row">
-                        <article class="col-xl-6 mb-4 mt-4">
+                    <div class="row noticias__principales">
+                        <article class="col-xl-6 mb-4 mt-4 principales__noticia">
                             <img class="w-100"
                                 src="https://cdn.eldestapeweb.com/eldestape/112022/1668561055213.jpeg?&cw=350&ch=197"
                                 alt="">
-                            <h5 class="mt-2">Elecciones 2023</h5>
+                            <h5 class="mt-2 pie-de-foto">Elecciones 2023</h5>
                             <h2>Sasia destacó la reunión de la CGT y Massa: “Hay que recuperar el salario y no volver al
                                 pasado” </h2>
                             <p class="d-none d-xl-inline">El candidato de Unidos por San Juan logra una diferencia de
@@ -240,11 +244,11 @@
                                 quiere borrar a la clase media trabajadora”.</p>
                         </article>
                         <hr class="d-xl-none">
-                        <article class="col-xl-6 mb-4 mt-4">
+                        <article class="col-xl-6 mb-4 mt-4 principales__noticia">
                             <img class="w-100"
                                 src="https://cdn.eldestapeweb.com/eldestape/022023/1675818088629.jpeg?&cw=350&ch=197"
                                 alt="">
-                            <h5 class="mt-2">Elecciones 2023</h5>
+                            <h5 class="mt-2 pie-de-foto">Elecciones 2023</h5>
                             <h2>Cecilia Moreau de cara a las elecciones 2023: "Massa no se corta solo, viene
                                 construyendo con CFK"</h2>
                             <p class="d-none d-xl-inline">La titular de la Cámara se refirió a cómo actuará el actual
@@ -252,21 +256,21 @@
                                 fuerza política a la que representa".</p>
                         </article>
                         <hr>
-                        <article class="col-xl-6 mb-4 mt-4">
+                        <article class="col-xl-6 mb-4 mt-4 principales__noticia">
                             <img class="w-100"
                                 src="https://cdn.eldestapeweb.com/eldestape/062023/1688159071820.webp?cw=770&ch=440&extw=jpg"
                                 alt="">
-                            <h5 class="mt-2">Elecciones 2023</h5>
+                            <h5 class="mt-2 pie-de-foto">Elecciones 2023</h5>
                             <h2>Lammens: "Massa va a ser el precandidato más votado en las PASO"</h2>
                             <p class="d-none d-xl-inline">El ministro de Turismo y Deportes sostuvo que el ministro de
                                 Economía "sintetiza a los diferentes sectores" que integran la coalición oficialista.
                             </p>
                         </article>
-                        <article class="col-xl-6 mb-4 mt-4">
+                        <article class="col-xl-6 mb-4 mt-4 principales__noticia">
                             <img class="w-100"
                                 src="https://cdn.eldestapeweb.com/eldestape/042022/1650763143403.webp?cw=770&ch=440&extw=jpg"
                                 alt="">
-                            <h5 class="mt-2">Elecciones 2023</h5>
+                            <h5 class="mt-2 pie-de-foto">Elecciones 2023</h5>
                             <h2>El Gobierno festejó la resolución de Unión Europea y Celac por Malvinas: "Es una
                                 victoria histórica"</h2>
                             <p class="d-none d-xl-inline">Alberto Fernández y otros funcionarios destacaron el
@@ -275,6 +279,7 @@
                         </article>
                     </div>
                     <hr>
+                    <!-- Seccion especial hehca para cubrir las elecciones de Santa Fé-->
                     <div class="container d-flex flex-nowrap justify-content-center align-items-center mt-3 mb-3 m-4">
                         <div class="d-inline-block divider-icon  col-5"></div>
                         <div class="d-inline-block d-flex justify-content-center w-25 h-25 col-2">
@@ -339,7 +344,7 @@
                                 <img class="w-100"
                                     src="https://images.pagina12.com.ar/styles/focal_3_2_960x640/public/2023-07/746759-whatsapp-20image-202023-07-16-20at-206-32-19-20pm.jpeg?h=41c8880c&itok=0_UK1mNz"
                                     alt="">
-                                <h5>Avanza el escrutinio</h5>
+                                <h5 class="pie-de-foto">Avanza el escrutinio</h5>
                                 <h2 class="display-3"><strong>Elecciones PASO en Santa Fe 2023: resultados y quién ganó,
                                         minuto a minuto</strong></h2>
                                 <p class="d-none d-xl-inline mt-xl-2">Los primeros cómputos dan clara ventaja a
@@ -352,35 +357,34 @@
                 <hr class="d-xl-none">
                 <section class="container d-xl-none mt-4 mb-4">
                     <div class="row">
-                        </article>
                         <article class="d-flex principales__tarjeta m-2 align-items-center">
-                            <div class=""><img class="w-100"
-                                    src="https://cdn.eldestapeweb.com/eldestape/042023/1682881089467.jpeg?&cw=350&ch=197"
-                                    alt=""></div>
+                            <div class="w-100 h-100 principales__tarjeta__imagen"><img class="w-100 h-100"
+                                    src="https://www.lanacion.com.ar/resizer/U1EbFSx8xM8cthPG_lNYhXEIYug=/320x213/smart/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/UM2NPQCNVRHVPPXMK57C3DYLAQ.JPG"
+                                    alt="Axel Kicillof"></div>
                             <div>
                                 <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
-                                <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Quae, neque amet,</strong></h2>
+                                <h2 class="principales__tarjeta__titulo"><strong>La arenga de Axel Kicillof en un acto
+                                        con la CGT y la CTA</strong></h2>
                             </div>
                         </article>
                         <article class="d-flex principales__tarjeta m-2 align-items-center">
-                            <div class=""><img class="w-100"
-                                    src="https://cdn.eldestapeweb.com/eldestape/042023/1682881089467.jpeg?&cw=350&ch=197"
-                                    alt=""></div>
+                            <div class="w-100 h-100 principales__tarjeta__imagen"><img class="w-100 h-100"
+                                    src="https://resizer.glanacion.com/resizer/ZGNrmNGmYQSaQU76Yl3fDobBYPo=/608x405/smart/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/V2XIF6WAIBF2PMBCOOQWII76UQ.JPG"
+                                    alt="Urnas"></div>
                             <div>
                                 <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
-                                <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Quae, neque amet,</strong></h2>
+                                <h2 class="principales__tarjeta__titulo"><strong>El Gobierno advierte que podría haber
+                                        demoras en el escrutinio de las PASO</strong></h2>
                             </div>
                         </article>
                         <article class="d-flex principales__tarjeta m-2 align-items-center">
-                            <div class=""><img class="w-100"
-                                    src="https://cdn.eldestapeweb.com/eldestape/042023/1682881089467.jpeg?&cw=350&ch=197"
-                                    alt=""></div>
+                            <div class="w-100 h-100 principales__tarjeta__imagen"><img class="w-100 h-100"
+                                    src="https://www.lanacion.com.ar/resizer/4dmb8e0c9Wjs77tkGxMzki6YXLA=/420x280/smart/filters:format(webp):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/5OHL626Q6VDDFA7WQA53UUWVVQ.jpg"
+                                    alt="Novaresio de un lado y vidal de otro"></div>
                             <div>
-                                <h5 class="principales__tarjeta__encabezado">Elecciones 2023</h5>
-                                <h2 class="principales__tarjeta__titulo"><strong>Lorem ipsum dolor sit amet consectetur
-                                        adipisicing elit. Quae, neque amet,</strong></h2>
+                                <h5 class="principales__tarjeta__encabezado">Periodistas</h5>
+                                <h2 class="principales__tarjeta__titulo"><strong>“Es demasiado soberbio”. La picante
+                                        observación de Novaresio sobre Vidal tras su apoyo a Larreta</strong></h2>
                             </div>
                         </article>
                     </div>
@@ -388,12 +392,12 @@
         </section>
         <hr class="display-xl-none">
         <section class="container">
-            <div class="row">
-                <article class="col-xl-6 mb-4 mt-4">
+            <div class="row noticias__principales">
+                <article class="col-xl-6 mb-4 mt-4 principales__noticia">
                     <img class="w-100"
                         src="https://cdn.eldestapeweb.com/eldestape/072023/1689263904177.webp?cw=770&ch=440&extw=jpg"
                         alt="Carrio en conferencia de prensa">
-                    <h5>Elecciones 2023</h5>
+                    <h5 class="pie-de-foto">Elecciones 2023</h5>
                     <h2>Carrió respaldó a López después de las críticas del bullrichismo, de cara a las elecciones 2023:
                         "La verdad es el camino"</h2>
                     <p class="d-none d-xl-inline">El candidato de Unidos por San Juan logra una diferencia de casi
@@ -401,31 +405,31 @@
                         provincia</p>
                 </article>
                 <hr class="d-xl-none">
-                <article class="col-xl-6 mb-4 mt-4">
+                <article class="col-xl-6 mb-4 mt-4  principales__noticia">
                     <img class="w-100"
                         src="https://cdn.eldestapeweb.com/eldestape/052023/1684541207083.webp?cw=770&ch=440&extw=jpg&ma=23"
                         alt="Milei en campaña">
-                    <h5>Elecciones 2023</h5>
+                    <h5 class="pie-de-foto">Elecciones 2023</h5>
                     <h2>Motorhome, recorridas y acto de cierre: los detalles del cierre de la campaña de Javier Milei en
                         las elecciones 2023</h2>
                     <p class="d-none d-xl-inline">El precandidato a presidente de La Libertad Avanza comenzó a delinear
                         su agenda de campaña previo a las PASO.</p>
                 </article>
                 <hr>
-                <article class="col-xl-6 mb-4 mt-4">
+                <article class="col-xl-6 mb-4 mt-4  principales__noticia">
                     <img class="w-100"
                         src="https://cdn.eldestapeweb.com/eldestape/072023/1689725659425.webp?cw=770&ch=440&extw=jpg"
                         alt="Policia de caba en subte de buenos aires">
-                    <h5>CIUDAD DE BUENOS AIRES</h5>
+                    <h5 class="pie-de-foto">CIUDAD DE BUENOS AIRES</h5>
                     <h2>Organismos de derechos humanos repudiaron la implementación de las armas Taser en CABA</h2>
                     <p class="d-none d-xl-inline">H.I.J.O.S y el Observatorio de Derechos Humanos de la Ciudad de Buenos
                         Aires denunciaron que "el Gobierno porteño institucionaliza el uso de un arma de tortura". </p>
                 </article>
-                <article class="col-xl-6 mb-4 mt-4">
+                <article class="col-xl-6 mb-4 mt-4  principales__noticia">
                     <img class="w-100"
                         src="https://cdn.eldestapeweb.com/eldestape/072023/1689705598810.webp?cw=770&ch=440&extw=jpg&ma=23"
                         alt="Integrantes de de la CGT">
-                    <h5>Elecciones 2023</h5>
+                    <h5 class="pie-de-foto">Elecciones 2023</h5>
                     <h2>Elecciones 2023: la CGT bendice a la fórmula Sergio Massa y Agustín Rossi en Azopardo</h2>
                     <p class="d-none d-xl-inline">El trinomio que conduce a la central obrera recibirá en su sede
                         principal a la dupla electoral. "No será un acto para reclamos sino para apoyar a la fórmula",
@@ -448,7 +452,8 @@
                                     <h5>Información</h5>
                                     <ul class="nav flex-column">
                                         <li class="nav-item mb-2">
-                                            <p>Diario líder en noticias de actualidad, política, economía, deportes y más. </p>
+                                            <p>Diario líder en noticias de actualidad, política, economía, deportes y
+                                                más. </p>
                                         </li>
                                         <li class="nav-item mb-2">Avenida Siempreviva
                                             742,Rosario,Sante fé,Argentina</li>
@@ -469,6 +474,6 @@
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
                         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
                         crossorigin="anonymous"></script>
-                    </body>
+</body>
 
 </html>

@@ -13,6 +13,18 @@
             border: 0.1rem solid $color-borde-normal
         }
     }
+&__buscar{
+    width: 3rem;
+    border-radius: 15%;
+    &:hover{
+    width: 13rem;
+    transform:scale(1,1) ;
+    transition-duration: 0.30s;
+    transform-origin: right;
+    transition-timing-function: linear;
+    border-radius: 10%;
+}
+}
 }
 
 .divider-icon {
